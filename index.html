@@ -1,0 +1,1548 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#081E33">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Pesca en el Hielo">
+<link rel="icon" type="image/png" href="data:image/png;base64,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">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<title>Pesca en el Hielo</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #081E33; overflow: hidden; height: 100%; }
+  canvas { display: block; touch-action: none; -webkit-user-select: none; user-select: none; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<script>
+(() => {
+'use strict';
+
+/* ============================================================
+   PESCA EN EL HIELO — v3
+   Arte, música y sonido 100% originales (canvas + WebAudio).
+   El robot anunciador está inspirado en el robot de Android,
+   creado y compartido por Google y usado según los términos de
+   la licencia Creative Commons 3.0 Attribution.
+
+   Estructura:
+   - 5 oleadas temporizadas, cada una más larga y peligrosa
+   - Peligros progresivos: W1 tranquila, W2 medusas, W3
+     tiburones, W4 cangrejos, W5 todo a la vez
+   - Robot con cartel anuncia cada oleada
+   - Cangrejos se cuelgan bajo la placa de hielo junto al hoyo
+     para cortar el hilo (súbelo a la superficie para espantarlos)
+   - La pesca se va apilando sobre el hielo junto a la hielera
+   - Tiburones roban el pez enganchado; su aleta avisa antes
+   - Pez gris: errático, vale 2 monedas
+   - Final: cinemática del MULLET (3 avistamientos + 3 vueltas)
+     con escenario limpio; se captura con un pez de carnada
+
+   Sin conexión: todo (arte, música, lógica, ícono) vive en este
+   archivo; abierto en local corre 100% offline. Hospedado por
+   HTTPS, registra manifest + service worker y queda instalable
+   como app que funciona sin internet.
+   ============================================================ */
+
+const CONFIG = {
+  WORMS: 3,
+  FISH_COIN: 1,
+  GRAY_COIN: 2,
+  MULLET_COIN: 25,
+  HOOK_FOLLOW: 8,
+  MULLET_PULL: 55,
+  WAVE_TIME: [25, 32, 39, 46, 53],   // duración de cada oleada (s)
+};
+
+// Peligros por oleada: null = no aparece. Rangos = seg entre spawns.
+const WAVES = [
+  { fish: [2.0, 3.0], fishMax: 3, gray: 0.00, jelly: null,       shark: null,     crab: false, junk: null,     speed: 1.00 },
+  { fish: [1.9, 2.9], fishMax: 3, gray: 0.00, jelly: [5.5, 9.0], shark: null,     crab: false, junk: [10, 15], speed: 1.05 },
+  { fish: [1.8, 2.8], fishMax: 3, gray: 0.25, jelly: [5.0, 8.5], shark: [9, 14],  crab: false, junk: [9, 14],  speed: 1.10 },
+  { fish: [1.7, 2.6], fishMax: 3, gray: 0.30, jelly: [4.5, 7.5], shark: [8, 13],  crab: true,  junk: [9, 14],  speed: 1.18 },
+  { fish: [1.6, 2.4], fishMax: 4, gray: 0.35, jelly: [3.5, 6.0], shark: [7, 11],  crab: true,  junk: [8, 13],  speed: 1.25 },
+];
+const CRAB_EVERY = [null, null, null, [10, 16], [8, 13]]; // seg entre cangrejos
+const SIGNS = [
+  ['OLEADA 1', 'Aguas tranquilas'],
+  ['OLEADA 2', '¡Atención: MEDUSAS!'],
+  ['OLEADA 3', '¡Cuidado: TIBURONES!'],
+  ['OLEADA 4', '¡Ojo: CANGREJOS!'],
+  ['OLEADA 5', '¡Todo a la vez!'],
+];
+
+/* ---------- Lienzo y resolución virtual ---------- */
+const canvas = document.getElementById('game');
+const ctx = canvas.getContext('2d');
+const VW = 800, VH = 600;
+let scale = 1, offX = 0, offY = 0;
+
+function resize() {
+  const dpr = window.devicePixelRatio || 1;
+  const w = window.innerWidth, h = window.innerHeight;
+  canvas.width = Math.floor(w * dpr);
+  canvas.height = Math.floor(h * dpr);
+  canvas.style.width = w + 'px';
+  canvas.style.height = h + 'px';
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  scale = Math.min(w / VW, h / VH);
+  offX = (w - VW * scale) / 2;
+  offY = (h - VH * scale) / 2;
+}
+window.addEventListener('resize', resize);
+resize();
+
+const reducedMotion = window.matchMedia &&
+  window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* ---------- Utilidades ---------- */
+const rand = (a, b) => a + Math.random() * (b - a);
+const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+const lerp = (a, b, t) => a + (b - a) * t;
+const dist = (ax, ay, bx, by) => Math.hypot(ax - bx, ay - by);
+
+/* ---------- Geometría del mundo (agua bajita) ---------- */
+const ICE_Y = 150;
+const LINE_X = 260;
+const SURFACE_Y = ICE_Y + 36;
+const FLOOR_Y = 455;
+const HOOK_MIN = ICE_Y + 24;
+const HOOK_MAX = FLOOR_Y - 14;
+const ROD_TIP = { x: 232, y: 64 };
+
+/* ---------- Paleta ---------- */
+const C = {
+  ice: '#EAF6FF', iceShade: '#C7E2F4', iceEdge: '#9CC4DE',
+  sky: '#DFF0FB',
+  waterTop: '#1E6FA8', waterDeep: '#0B2A47',
+  hole: '#0C2C4A',
+  text: '#F2F9FF', gold: '#FFD24A', goldDark: '#C99416',
+  danger: '#E2574C', jelly: '#DE8AD6',
+  panel: 'rgba(7,22,38,0.80)',
+  line: 'rgba(235,246,255,0.9)',
+  worm: '#F58EA8',
+  rock: '#12314E', rock2: '#1A3B5C', weed: '#1E5B4F',
+  robot: '#8BC34A', robotDark: '#7CB342',
+  sil: '#0A1826',
+};
+
+/* ---------- Audio: contexto ---------- */
+let AC = null;
+function ac() {
+  if (!AC) {
+    const Ctor = window.AudioContext || window.webkitAudioContext;
+    if (Ctor) AC = new Ctor();
+  }
+  return AC;
+}
+
+/* ---------- SFX ---------- */
+function tone(freq, dur, type, vol, slideTo) {
+  if (G.muted) return;
+  const a = ac(); if (!a) return;
+  const o = a.createOscillator(), g = a.createGain();
+  o.type = type || 'sine';
+  o.frequency.setValueAtTime(freq, a.currentTime);
+  if (slideTo) o.frequency.exponentialRampToValueAtTime(slideTo, a.currentTime + dur);
+  g.gain.setValueAtTime(vol || 0.15, a.currentTime);
+  g.gain.exponentialRampToValueAtTime(0.0001, a.currentTime + dur);
+  o.connect(g); g.connect(a.destination);
+  o.start(); o.stop(a.currentTime + dur + 0.02);
+}
+function noiseBurst(dur, vol, low) {
+  if (G.muted) return;
+  const a = ac(); if (!a) return;
+  const len = Math.floor(a.sampleRate * dur);
+  const buf = a.createBuffer(1, len, a.sampleRate);
+  const d = buf.getChannelData(0);
+  for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / len);
+  const src = a.createBufferSource(); src.buffer = buf;
+  const f = a.createBiquadFilter();
+  f.type = low ? 'lowpass' : 'highpass';
+  f.frequency.value = low ? 500 : 1500;
+  const g = a.createGain(); g.gain.value = vol || 0.2;
+  src.connect(f); f.connect(g); g.connect(a.destination);
+  src.start();
+}
+const sndHook   = () => { tone(660, 0.09, 'square', 0.10, 880); };
+const sndCoin   = () => { tone(880, 0.08, 'square', 0.12); setTimeout(() => tone(1320, 0.12, 'square', 0.12), 70); };
+const sndSplash = () => { noiseBurst(0.25, 0.18, true); };
+const sndShock  = () => { tone(140, 0.28, 'sawtooth', 0.20, 60); noiseBurst(0.2, 0.12, false); };
+const sndCut    = () => { tone(1400, 0.05, 'square', 0.16, 300); noiseBurst(0.08, 0.1, false); };
+const sndChomp  = () => { tone(90, 0.18, 'sawtooth', 0.2, 55); noiseBurst(0.12, 0.15, true); };
+const sndMullet = () => { tone(110, 0.4, 'sawtooth', 0.18, 70); };
+const sndBoom   = () => { tone(52, 0.4, 'sine', 0.26, 38); };
+const sndWave   = () => { tone(523, 0.12, 'triangle', 0.14); setTimeout(() => tone(784, 0.18, 'triangle', 0.14), 110); };
+const sndWin    = () => { [523, 659, 784, 1047].forEach((f, i) => setTimeout(() => tone(f, 0.22, 'triangle', 0.16), i * 130)); };
+const sndOver   = () => { [392, 330, 262].forEach((f, i) => setTimeout(() => tone(f, 0.3, 'triangle', 0.14), i * 180)); };
+
+/* ---------- Música: loop original estilo jazzy-chill ----------
+   Composición propia (8 compases, swing suave, Do mayor),
+   con la vibra relajada del clásico. Secuenciador WebAudio.  */
+const MUSIC = { on: false, step: 0, nextT: 0, id: null, gain: null, noiseBuf: null, level: 0.9 };
+const M_BPM = 96;
+const M_BEAT = 60 / M_BPM;
+const M_STEPS = 64;
+const MELODY = [
+  [0,76,2],[2,79,1],[4,81,2],[6,79,2],
+  [8,76,3],[12,74,2],[14,72,2],
+  [16,69,2],[18,72,1],[20,76,3],
+  [24,74,2],[26,72,2],[28,69,4],
+  [32,77,2],[34,81,1],[36,79,2],[38,77,2],
+  [40,76,3],[44,72,4],
+  [48,74,2],[50,76,1],[52,77,2],[54,74,2],
+  [56,71,2],[58,74,2],[60,72,4],
+];
+const BASSLINE = [
+  [0,36,2],[4,43,2],[8,36,2],[12,43,2],
+  [16,33,2],[20,40,2],[24,33,2],[28,40,2],
+  [32,41,2],[36,48,2],[40,41,2],[44,48,2],
+  [48,43,2],[52,50,2],[56,43,2],[60,47,2],
+];
+const MEL_AT = {}, BASS_AT = {};
+for (const n of MELODY) (MEL_AT[n[0]] = MEL_AT[n[0]] || []).push(n);
+for (const n of BASSLINE) (BASS_AT[n[0]] = BASS_AT[n[0]] || []).push(n);
+
+function stepDur(i) { return (i % 2 === 0 ? 0.58 : 0.42) * M_BEAT; }
+function midiHz(m) { return 440 * Math.pow(2, (m - 69) / 12); }
+function mnote(t, midi, steps, type, vol) {
+  const a = ac(); if (!a || !MUSIC.gain) return;
+  const dur = steps * (M_BEAT / 2) * 0.92;
+  const o = a.createOscillator(), g = a.createGain();
+  o.type = type;
+  o.frequency.value = midiHz(midi);
+  g.gain.setValueAtTime(0.0001, t);
+  g.gain.exponentialRampToValueAtTime(vol, t + 0.02);
+  g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+  o.connect(g); g.connect(MUSIC.gain);
+  o.start(t); o.stop(t + dur + 0.05);
+}
+function mhat(t) {
+  const a = ac(); if (!a || !MUSIC.gain) return;
+  if (!MUSIC.noiseBuf) {
+    const len = Math.floor(a.sampleRate * 0.05);
+    MUSIC.noiseBuf = a.createBuffer(1, len, a.sampleRate);
+    const d = MUSIC.noiseBuf.getChannelData(0);
+    for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / len);
+  }
+  const src = a.createBufferSource(); src.buffer = MUSIC.noiseBuf;
+  const f = a.createBiquadFilter(); f.type = 'highpass'; f.frequency.value = 6000;
+  const g = a.createGain(); g.gain.value = 0.03;
+  src.connect(f); f.connect(g); g.connect(MUSIC.gain);
+  src.start(t);
+}
+function playStep(s, t) {
+  const mel = MEL_AT[s];
+  if (mel) for (const n of mel) mnote(t, n[1], n[2], 'triangle', 0.055);
+  const bs = BASS_AT[s];
+  if (bs) for (const n of bs) mnote(t, n[1], n[2], 'sine', 0.06);
+  if (s % 4 === 2) mhat(t);
+}
+function musTick() {
+  if (!MUSIC.on) return;
+  const a = ac(); if (!a) return;
+  while (MUSIC.nextT < a.currentTime + 0.16) {
+    playStep(MUSIC.step % M_STEPS, MUSIC.nextT);
+    MUSIC.nextT += stepDur(MUSIC.step % 2);
+    MUSIC.step++;
+  }
+}
+function setMusicLevel(l) {
+  MUSIC.level = l;
+  if (MUSIC.gain) MUSIC.gain.gain.value = G.muted ? 0 : l;
+}
+function startMusic() {
+  const a = ac(); if (!a) return;
+  if (!MUSIC.gain) { MUSIC.gain = a.createGain(); MUSIC.gain.connect(a.destination); }
+  setMusicLevel(0.9);
+  MUSIC.on = true;
+  MUSIC.step = 0;
+  MUSIC.nextT = a.currentTime + 0.1;
+  if (!MUSIC.id) MUSIC.id = setInterval(musTick, 25);
+}
+function stopMusic() { MUSIC.on = false; }
+
+/* ---------- Estado ---------- */
+const G = {};
+function reset() {
+  G.state = 'title';        // title | play | over | win
+  G.phase = 'announce';     // announce | wave | cinematic | fight
+  G.time = 0;
+  G.coins = 0;
+  G.worms = CONFIG.WORMS;
+  G.caught = 0;
+  G.wave = 1;
+  G.waveT = 0;
+  G.robot = null;
+  G.hook = { y: 300, targetY: 300, attached: null, stunT: 0 };
+  G.fishes = []; G.jellies = []; G.junks = [];
+  G.sharks = []; G.fins = []; G.pendingSharks = [];
+  G.iceCrab = null;
+  G.mullet = null;
+  G.mulletTimer = 0;
+  G.cine = null;
+  G.tFish = Infinity; G.tJelly = Infinity; G.tShark = Infinity;
+  G.tCrab = Infinity; G.tJunk = Infinity;
+  G.floats = []; G.parts = []; G.bolts = 0;
+  G.pile = []; G.pileCols = [0, 0, 0, 0, 0, 0];
+  G.shakeT = 0; G.endT = null;
+  G.banner = null;
+  if (G.muted === undefined) G.muted = false;
+  if (!G.snow) {
+    G.snow = [];
+    for (let i = 0; i < 40; i++) G.snow.push({ x: rand(0, VW), y: rand(0, ICE_Y), v: rand(12, 30), ph: rand(0, 6) });
+  }
+  G.bubbles = [];
+  for (let i = 0; i < 10; i++) G.bubbles.push(newBubble(true));
+}
+function newBubble(anyY) {
+  return { x: rand(20, VW - 20), y: anyY ? rand(ICE_Y + 40, FLOOR_Y) : FLOOR_Y - rand(0, 16), r: rand(2, 5), v: rand(18, 40), ph: rand(0, 6) };
+}
+reset();
+
+/* ---------- Robot anunciador ---------- */
+function startRobot(sign, after, fast) {
+  G.robot = { x: -80, v: fast ? 210 : 120, state: 'in', holdT: 0, sign, after, fast: !!fast };
+}
+function finishRobot() {
+  const after = G.robot.after;
+  G.robot = null;
+  if (after === 'wave') {
+    G.phase = 'wave';
+    G.waveT = CONFIG.WAVE_TIME[G.wave - 1];
+    const M = WAVES[G.wave - 1];
+    G.tFish = 1.0;
+    G.tJelly = M.jelly ? rand(M.jelly[0], M.jelly[1]) : Infinity;
+    G.tShark = M.shark ? rand(M.shark[0], M.shark[1]) : Infinity;
+    const ce = CRAB_EVERY[G.wave - 1];
+    G.tCrab = ce ? rand(ce[0], ce[1]) : Infinity;
+    G.tJunk = M.junk ? rand(M.junk[0], M.junk[1]) : Infinity;
+  } else {
+    G.phase = 'fight';
+    G.mulletTimer = 1.4;
+    G.tFish = 1.2;
+    setMusicLevel(0.5);
+  }
+}
+
+/* ---------- Spawns ---------- */
+function spawnFishEntity(forceNormal) {
+  const M = WAVES[Math.min(G.wave, 5) - 1];
+  const dir = Math.random() < 0.5 ? 1 : -1;
+  const sp = rand(65, 135) * (G.phase === 'wave' ? M.speed : 1);
+  const f = {
+    x: dir > 0 ? -30 : VW + 30,
+    y: rand(ICE_Y + 55, FLOOR_Y - 40),
+    vx: sp * dir, vy: 0,
+    ph: rand(0, 6),
+    kind: 'n', variant: 'straight',
+  };
+  if (!forceNormal && Math.random() < M.gray) {
+    f.kind = 'g';
+    const r = Math.random();
+    if (r < 0.30) {
+      f.variant = 'dash';
+      f.vx *= 2.2;
+    } else if (r < 0.65) {
+      f.variant = 'u';
+      f.sp = Math.abs(f.vx) * 1.1;
+      f.a = dir > 0 ? 0 : Math.PI;
+      f.rot = dir > 0 ? 1 : -1;
+      f.turned = 0;
+      f.turnX = dir > 0 ? rand(VW * 0.35, VW * 0.62) : rand(VW * 0.38, VW * 0.65);
+    } else if (r < 0.85) {
+      f.variant = 'wave';
+      f.baseY = f.y;
+      f.amp = rand(18, 32);
+      f.fq = rand(2, 3.4);
+    }
+  }
+  G.fishes.push(f);
+}
+function spawnJelly() {
+  const dir = Math.random() < 0.5 ? 1 : -1;
+  G.jellies.push({
+    x: dir > 0 ? -30 : VW + 30,
+    baseY: rand(ICE_Y + 75, FLOOR_Y - 70),
+    y: 0, v: rand(22, 40) * dir, ph: rand(0, 6),
+  });
+}
+function spawnFin() {
+  const fromLeft = Math.random() < 0.5;
+  G.fins.push({ x: fromLeft ? -50 : VW + 50, v: (fromLeft ? 1 : -1) * 230 });
+  noiseBurst(0.3, 0.08, true);
+}
+function spawnShark(from) {
+  const M = WAVES[Math.min(G.wave, 5) - 1];
+  const fromRight = from === 'R';
+  G.sharks.push({
+    x: fromRight ? VW + 70 : -70,
+    y: clamp(G.hook.y + rand(-30, 30), ICE_Y + 70, FLOOR_Y - 40),
+    v: (fromRight ? -1 : 1) * 165 * M.speed,
+    ate: false, ph: rand(0, 6),
+  });
+}
+function spawnIceCrab() {
+  if (G.iceCrab) return;
+  const side = Math.random() < 0.5 ? -1 : 1; // -1 = entra por la izquierda
+  G.iceCrab = {
+    x: side < 0 ? -34 : VW + 34,
+    tgt: side < 0 ? LINE_X - 46 : LINE_X + 46,
+    v: side < 0 ? 72 : -72,
+    side, state: 'walk', cutT: 0, tick: 0,
+  };
+}
+function spawnJunk() {
+  const dir = Math.random() < 0.5 ? 1 : -1;
+  const r = Math.random();
+  const kind = r < 0.34 ? 'boot' : (r < 0.67 ? 'can' : 'barrel');
+  G.junks.push({
+    x: dir > 0 ? -30 : VW + 30,
+    y: rand(ICE_Y + 85, FLOOR_Y - 55),
+    v: rand(18, 34) * dir,
+    kind, r: kind === 'barrel' ? 30 : 26,
+    rot: rand(0, 6), rv: rand(-0.6, 0.6), ph: rand(0, 6),
+  });
+}
+function spawnMullet() {
+  const dir = Math.random() < 0.5 ? 1 : -1;
+  G.mullet = {
+    x: dir > 0 ? -80 : VW + 80,
+    y: clamp(G.hook.y + rand(-50, 50), ICE_Y + 85, FLOOR_Y - 45),
+    v: 95 * dir, ph: rand(0, 6), flee: false, cool: 0,
+  };
+  sndMullet();
+}
+
+/* ---------- Efectos ---------- */
+function addFloat(x, y, txt, color) {
+  G.floats.push({ x, y, txt, color, t: 1.1 });
+}
+function splashAt(x, y) {
+  for (let i = 0; i < 10; i++) {
+    G.parts.push({ x, y, vx: rand(-70, 70), vy: rand(-140, -40), t: rand(0.35, 0.6), color: 'rgba(214,238,255,0.9)', r: rand(2, 4) });
+  }
+  sndSplash();
+}
+
+/* ---------- Pila de pesca sobre el hielo ----------
+   Crece de forma orgánica: casi siempre cae un pez al montón,
+   a veces dos y a veces ninguno, así que la pila acompaña la
+   pesca sin ser un contador exacto. */
+function addToPile(gray) {
+  const r = Math.random();
+  let n = 1;
+  if (r < 0.10) n = 0;
+  else if (r > 0.80) n = 2;
+  for (let i = 0; i < n; i++) pilePush(gray && i === 0);
+}
+function pilePush(gray) {
+  if (G.pile.length >= 66) return;
+  // columna aleatoria sesgada hacia las más bajas (forma de montículo)
+  let c = Math.floor(rand(0, G.pileCols.length));
+  for (let k = 0; k < 2; k++) {
+    const c2 = Math.floor(rand(0, G.pileCols.length));
+    if (G.pileCols[c2] < G.pileCols[c]) c = c2;
+  }
+  const x = 18 + c * 15 + rand(-5, 5);
+  const y = ICE_Y - 8 - G.pileCols[c] * 13 + rand(-2, 2);
+  G.pileCols[c]++;
+  G.pile.push({
+    x, y,
+    rot: rand(-0.5, 0.5),
+    flip: Math.random() < 0.5 ? 1 : -1,
+    gray: !!gray,
+  });
+}
+
+/* ---------- Daño ---------- */
+function loseWorm(msg) {
+  G.worms--;
+  G.hook.attached = null;
+  G.hook.stunT = 1.0;
+  G.shakeT = 0.35;
+  addFloat(LINE_X, G.hook.y - 26, msg, '#FF9B8F');
+  if (G.worms <= 0) G.endT = 1.1;
+}
+
+/* ---------- Fin de oleada / cinemática ---------- */
+function endWave() {
+  if (G.iceCrab && G.iceCrab.state !== 'flee') {
+    G.iceCrab.state = 'flee';
+    G.iceCrab.v = G.iceCrab.side < 0 ? -170 : 170;
+  }
+  G.fins = []; G.pendingSharks = [];
+  G.tFish = Infinity; G.tJelly = Infinity; G.tShark = Infinity;
+  G.tCrab = Infinity; G.tJunk = Infinity;
+  if (G.wave < 5) {
+    G.wave++;
+    G.phase = 'announce';
+    startRobot(SIGNS[G.wave - 1], 'wave', false);
+    sndWave();
+  } else {
+    // limpieza total del escenario para el MULLET
+    G.phase = 'cinematic';
+    G.cine = { step: 0, wait: 0.9, sil: null, fin: null, lap: 0 };
+    G.fishes = []; G.jellies = []; G.junks = [];
+    G.sharks = []; G.fins = []; G.pendingSharks = [];
+    G.iceCrab = null;
+    setMusicLevel(0.35);
+    G.banner = { t: 2.6, txt: '...el agua se queda en silencio...' };
+    sndBoom();
+  }
+}
+
+/* ---------- Update ---------- */
+function update(dt) {
+  G.time += dt;
+  if (G.shakeT > 0) G.shakeT -= dt;
+
+  const amb = reducedMotion ? 0.3 : 1;
+  for (const s of G.snow) {
+    s.y += s.v * dt;
+    s.x += Math.sin(G.time * 0.8 + s.ph) * 10 * dt * amb;
+    if (s.y > ICE_Y - 4) { s.y = -4; s.x = rand(0, VW); }
+  }
+  for (const b of G.bubbles) {
+    b.y -= b.v * dt;
+    b.x += Math.sin(G.time * 2 + b.ph) * 8 * dt * amb;
+    if (b.y < ICE_Y + 16) Object.assign(b, newBubble(false));
+  }
+  for (const f of G.floats) { f.t -= dt; f.y -= 30 * dt; }
+  G.floats = G.floats.filter(f => f.t > 0);
+  for (const p of G.parts) { p.t -= dt; p.x += p.vx * dt; p.y += p.vy * dt; p.vy += 320 * dt; }
+  G.parts = G.parts.filter(p => p.t > 0);
+  if (G.banner) { G.banner.t -= dt; if (G.banner.t <= 0) G.banner = null; }
+
+  if (G.state !== 'play') return;
+
+  if (G.endT !== null) {
+    G.endT -= dt;
+    if (G.endT <= 0) { G.state = 'over'; G.endT = null; stopMusic(); sndOver(); }
+  }
+
+  /* --- robot anunciador --- */
+  if (G.robot) {
+    const r = G.robot;
+    if (r.state === 'in') {
+      r.x += r.v * dt;
+      if (r.x >= 380) { r.state = 'hold'; r.holdT = r.fast ? 1.1 : 2.1; }
+    } else if (r.state === 'hold') {
+      r.holdT -= dt;
+      if (r.holdT <= 0) r.state = 'out';
+    } else {
+      r.x += r.v * 1.5 * dt;
+      if (r.x > VW + 100) finishRobot();
+    }
+  }
+
+  /* --- temporizador de oleada --- */
+  if (G.phase === 'wave') {
+    G.waveT -= dt;
+    if (G.waveT <= 0) endWave();
+  }
+
+  /* --- anzuelo --- */
+  const H = G.hook;
+  if (H.stunT > 0) H.stunT -= dt;
+  const heavy = H.attached && H.attached.type === 'mullet';
+  const k = heavy ? 3.2 : CONFIG.HOOK_FOLLOW;
+  H.y = lerp(H.y, H.targetY, Math.min(1, k * dt));
+  if (heavy) {
+    H.y += CONFIG.MULLET_PULL * dt;
+    if (Math.random() < dt * 1.2) H.y += rand(8, 22);
+  }
+  H.y = clamp(H.y, HOOK_MIN, HOOK_MAX);
+
+  /* --- spawns de oleada --- */
+  if (G.phase === 'wave') {
+    const M = WAVES[G.wave - 1];
+    G.tFish -= dt;
+    if (G.tFish <= 0) {
+      if (G.fishes.length < M.fishMax) spawnFishEntity(false);
+      G.tFish = rand(M.fish[0], M.fish[1]);
+    }
+    if (isFinite(G.tJelly)) { G.tJelly -= dt; if (G.tJelly <= 0) { spawnJelly(); G.tJelly = rand(M.jelly[0], M.jelly[1]); } }
+    if (isFinite(G.tShark)) { G.tShark -= dt; if (G.tShark <= 0) { spawnFin(); G.tShark = rand(M.shark[0], M.shark[1]); } }
+    if (isFinite(G.tCrab)) {
+      G.tCrab -= dt;
+      if (G.tCrab <= 0) {
+        spawnIceCrab();
+        const ce = CRAB_EVERY[G.wave - 1];
+        G.tCrab = rand(ce[0], ce[1]);
+      }
+    }
+    if (isFinite(G.tJunk)) { G.tJunk -= dt; if (G.tJunk <= 0) { spawnJunk(); G.tJunk = rand(M.junk[0], M.junk[1]); } }
+  }
+
+  /* --- pez de reabastecimiento en la pelea final --- */
+  if (G.phase === 'fight') {
+    const hasFishHooked = H.attached && H.attached.type === 'fish';
+    if (G.fishes.length === 0 && !hasFishHooked) {
+      G.tFish -= dt;
+      if (G.tFish <= 0) { spawnFishEntity(true); G.tFish = 1.8; }
+    } else {
+      G.tFish = 1.2;
+    }
+  }
+
+  /* --- cinemática del Mullet --- */
+  if (G.phase === 'cinematic') {
+    const cn = G.cine;
+    if (cn.sil) {
+      cn.sil.x += cn.sil.v * dt;
+      if (cn.sil.x < -100 || cn.sil.x > VW + 100) {
+        cn.sil = null;
+        cn.wait = cn.step === 3 ? 0.45 : 1.0;
+      }
+    } else if (cn.fin) {
+      cn.fin.x += cn.fin.v * dt;
+      if (cn.fin.x < -160 || cn.fin.x > VW + 160) { cn.fin = null; cn.wait = 0.7; }
+    } else {
+      cn.wait -= dt;
+      if (cn.wait <= 0) {
+        if (cn.step === 0) {
+          cn.sil = { x: -80, v: 160, y: FLOOR_Y - 26, sc: 0.55, al: 0.28 };
+          spawnFishEntity(true); sndBoom(); cn.step = 1;
+        } else if (cn.step === 1) {
+          cn.sil = { x: VW + 80, v: -175, y: FLOOR_Y - 46, sc: 0.78, al: 0.42 };
+          spawnFishEntity(true); sndBoom(); cn.step = 2;
+        } else if (cn.step === 2) {
+          cn.fin = { x: -150, v: 200 };
+          spawnFishEntity(true); sndBoom(); cn.step = 3;
+        } else if (cn.step === 3) {
+          if (cn.lap < 3) {
+            const d = cn.lap % 2 === 0 ? 1 : -1;
+            cn.sil = { x: d > 0 ? -90 : VW + 90, v: d * 280, y: FLOOR_Y - 36, sc: 0.95, al: 0.5 };
+            sndBoom();
+            cn.lap++;
+          } else {
+            startRobot(['¡EL MULLET!', 'Usa un pez de carnada'], 'fight', true);
+            G.phase = 'announce';
+            sndMullet();
+          }
+        }
+      }
+    }
+  }
+
+  /* --- entidades: movimiento --- */
+  for (const f of G.fishes) {
+    if (f.variant === 'u') {
+      const past = (f.rot > 0 && f.x > f.turnX) || (f.rot < 0 && f.x < f.turnX);
+      if (past && f.turned < Math.PI) {
+        const w = Math.PI / 1.1;
+        const step = Math.min(w * dt, Math.PI - f.turned);
+        f.a += f.rot * step;
+        f.turned += step;
+      }
+      f.vx = Math.cos(f.a) * f.sp;
+      f.vy = Math.sin(f.a) * f.sp;
+      f.x += f.vx * dt;
+      f.y = clamp(f.y + f.vy * dt, ICE_Y + 48, FLOOR_Y - 28);
+    } else if (f.variant === 'wave') {
+      f.x += f.vx * dt;
+      f.y = f.baseY + Math.sin(G.time * f.fq + f.ph) * f.amp;
+    } else {
+      f.x += f.vx * dt;
+    }
+  }
+  G.fishes = G.fishes.filter(f => f.x > -70 && f.x < VW + 70);
+
+  for (const j of G.jellies) {
+    j.x += j.v * dt;
+    j.y = j.baseY + Math.sin(G.time * 1.6 + j.ph) * 24;
+  }
+  G.jellies = G.jellies.filter(j => j.x > -60 && j.x < VW + 60);
+
+  for (const fn of G.fins) fn.x += fn.v * dt;
+  for (const fn of G.fins) {
+    if (fn.v > 0 && fn.x > VW + 60) G.pendingSharks.push({ t: 0.75, from: 'R' });
+    else if (fn.v < 0 && fn.x < -60) G.pendingSharks.push({ t: 0.75, from: 'L' });
+  }
+  G.fins = G.fins.filter(fn => fn.x >= -60 && fn.x <= VW + 60);
+
+  for (const p of G.pendingSharks) {
+    p.t -= dt;
+    if (p.t <= 0) spawnShark(p.from);
+  }
+  G.pendingSharks = G.pendingSharks.filter(p => p.t > 0);
+
+  for (const s of G.sharks) {
+    s.x += s.v * dt;
+    if (!s.ate) s.y = lerp(s.y, clamp(H.y, ICE_Y + 70, FLOOR_Y - 40), Math.min(1, 1.3 * dt));
+    if (!s.ate && dist(s.x, s.y, LINE_X, H.y) < 40 && H.attached && H.attached.type === 'fish') {
+      H.attached = null;
+      s.ate = true;
+      s.v *= 1.7;
+      sndChomp();
+      addFloat(LINE_X, H.y - 24, '¡Un tiburón se robó tu pez!', '#BFD3E0');
+    }
+  }
+  G.sharks = G.sharks.filter(s => s.x > -110 && s.x < VW + 110);
+
+  const cb = G.iceCrab;
+  if (cb) {
+    if (cb.state === 'walk') {
+      cb.x += cb.v * dt;
+      if ((cb.v > 0 && cb.x >= cb.tgt) || (cb.v < 0 && cb.x <= cb.tgt)) {
+        cb.x = cb.tgt;
+        cb.state = 'cut';
+        cb.cutT = 2.6;
+        cb.tick = 0;
+      }
+    } else if (cb.state === 'cut') {
+      if (H.y <= SURFACE_Y + 6) {
+        cb.state = 'flee';
+        cb.v = cb.side < 0 ? -170 : 170;
+        addFloat(cb.x, ICE_Y + 52, '¡Lo espantaste!', '#BFE3FF');
+      } else {
+        cb.cutT -= dt;
+        cb.tick -= dt;
+        if (cb.tick <= 0) { tone(1250, 0.04, 'square', 0.07); cb.tick = 0.55; }
+        if (cb.cutT <= 0) {
+          sndCut();
+          loseWorm('¡El cangrejo cortó tu línea!');
+          cb.state = 'flee';
+          cb.v = cb.side < 0 ? -170 : 170;
+        }
+      }
+    } else {
+      cb.x += cb.v * dt;
+      if (cb.x < -60 || cb.x > VW + 60) G.iceCrab = null;
+    }
+  }
+
+  for (const jk of G.junks) {
+    jk.x += jk.v * dt;
+    jk.y += Math.sin(G.time * 1.2 + jk.ph) * 8 * dt;
+    jk.rot += jk.rv * dt;
+  }
+  G.junks = G.junks.filter(j => j.x > -60 && j.x < VW + 60);
+
+  /* --- enganchar --- */
+  if (!H.attached && H.stunT <= 0) {
+    for (let i = 0; i < G.fishes.length; i++) {
+      const f = G.fishes[i];
+      if (dist(f.x, f.y, LINE_X, H.y) < 24) {
+        H.attached = { type: 'fish', kind: f.kind, ph: rand(0, 6) };
+        G.fishes.splice(i, 1);
+        sndHook();
+        addFloat(LINE_X, H.y - 20, 'Picó', C.gold);
+        break;
+      }
+    }
+  }
+  if (!H.attached && H.stunT <= 0) {
+    for (let i = 0; i < G.junks.length; i++) {
+      const jk = G.junks[i];
+      if (dist(jk.x, jk.y, LINE_X, H.y) < jk.r) {
+        H.attached = { type: 'junk', kind: jk.kind, ph: rand(0, 6) };
+        G.junks.splice(i, 1);
+        sndHook();
+        break;
+      }
+    }
+  }
+
+  /* --- medusas: descarga si tocan CUALQUIER punto del cable --- */
+  if (H.stunT <= 0) {
+    for (const j of G.jellies) {
+      const tocaCable = Math.abs(j.x - LINE_X) < 18 && (j.y - 14) < H.y + 6;
+      const tocaAnzuelo = dist(j.x, j.y, LINE_X, H.y) < 36;
+      if (tocaCable || tocaAnzuelo) {
+        sndShock();
+        G.bolts = 0.5;
+        if (H.attached && H.attached.type === 'mullet') loseWorm('¡Descarga! El Mullet escapó');
+        else if (H.attached && H.attached.type === 'fish') loseWorm('¡Descarga! Perdiste el pez');
+        else loseWorm('¡Descarga!');
+        break;
+      }
+    }
+  }
+  if (G.bolts > 0) G.bolts -= dt;
+
+  /* --- Mullet (pelea final) --- */
+  if (H.attached && H.attached.type === 'mullet') {
+    // ya está en la línea
+  } else if (G.mullet) {
+    const m = G.mullet;
+    if (m.cool > 0) m.cool -= dt;
+    m.x += m.v * dt;
+    if (!m.flee) m.y = lerp(m.y, clamp(H.y, ICE_Y + 80, FLOOR_Y - 45), Math.min(1, 1.4 * dt));
+    if (!m.flee && m.cool <= 0 && dist(m.x, m.y, LINE_X, H.y) < 46) {
+      if (H.attached && H.attached.type === 'fish') {
+        H.attached = { type: 'mullet', ph: rand(0, 6) };
+        G.mullet = null;
+        sndMullet();
+        addFloat(LINE_X, H.y - 30, '¡El Mullet mordió! Súbelo', C.gold);
+        G.banner = { t: 2.2, txt: '¡Tira hacia arriba!' };
+      } else if (!H.attached && H.stunT <= 0) {
+        loseWorm('El Mullet se comió tu carnada');
+        m.flee = true; m.v = -m.v * 1.8; m.cool = 1;
+      } else {
+        m.cool = 1;
+      }
+    }
+    if (G.mullet && (G.mullet.x < -140 || G.mullet.x > VW + 140)) {
+      G.mullet = null;
+      G.mulletTimer = rand(2.5, 4);
+    }
+  } else if (G.phase === 'fight' && G.endT === null) {
+    G.mulletTimer -= dt;
+    if (G.mulletTimer <= 0) spawnMullet();
+  }
+
+  /* --- puntuar en la superficie --- */
+  if (H.attached && H.y <= SURFACE_Y) {
+    const a = H.attached;
+    H.attached = null;
+    splashAt(LINE_X, ICE_Y + 10);
+    if (a.type === 'fish') {
+      const val = a.kind === 'g' ? CONFIG.GRAY_COIN : CONFIG.FISH_COIN;
+      G.coins += val;
+      G.caught++;
+      addFloat(LINE_X, ICE_Y + 30, '+' + val, C.gold);
+      sndCoin();
+      addToPile(a.kind === 'g');
+    } else if (a.type === 'junk') {
+      const msg = a.kind === 'boot' ? 'Una bota vieja...' : (a.kind === 'can' ? 'Una lata oxidada...' : 'Un barril mojado...');
+      addFloat(LINE_X, ICE_Y + 30, msg, '#B9CBD8');
+    } else if (a.type === 'mullet') {
+      G.coins += CONFIG.MULLET_COIN;
+      addFloat(LINE_X, ICE_Y + 30, '+' + CONFIG.MULLET_COIN, C.gold);
+      G.state = 'win';
+      stopMusic();
+      sndWin();
+    }
+  }
+}
+
+/* ---------- Dibujo: helpers ---------- */
+function rrect(x, y, w, h, r) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.arcTo(x + w, y, x + w, y + h, r);
+  ctx.arcTo(x + w, y + h, x, y + h, r);
+  ctx.arcTo(x, y + h, x, y, r);
+  ctx.arcTo(x, y, x + w, y, r);
+  ctx.closePath();
+}
+function text(t, x, y, size, weight, color, align) {
+  ctx.fillStyle = color;
+  ctx.font = weight + ' ' + size + 'px system-ui, -apple-system, "Segoe UI", sans-serif';
+  ctx.textAlign = align || 'left';
+  ctx.textBaseline = 'middle';
+  ctx.fillText(t, x, y);
+}
+
+/* ---------- Dibujo: entidades ---------- */
+function drawFish(x, y, dir, ph, hooked, gray) {
+  const wag = Math.sin(G.time * 10 + ph) * 4;
+  const body = gray ? '#B8C4CE' : C.gold;
+  const fin = gray ? '#8E9CA8' : '#F5A623';
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.scale(dir >= 0 ? 1 : -1, 1);
+  if (hooked) ctx.rotate(Math.sin(G.time * 14 + ph) * 0.25);
+  ctx.fillStyle = fin;
+  ctx.beginPath();
+  ctx.moveTo(-12, 0);
+  ctx.lineTo(-24, -8 + wag);
+  ctx.lineTo(-24, 8 + wag);
+  ctx.closePath();
+  ctx.fill();
+  ctx.fillStyle = body;
+  ctx.beginPath();
+  ctx.ellipse(0, 0, 16, 9, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.fillStyle = fin;
+  ctx.beginPath();
+  ctx.moveTo(-2, -8); ctx.lineTo(4, -14); ctx.lineTo(8, -7);
+  ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#20313F';
+  ctx.beginPath(); ctx.arc(8, -2, 2.2, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+}
+function drawJelly(j) {
+  ctx.save();
+  ctx.translate(j.x, j.y);
+  const pulse = 1 + Math.sin(G.time * 4 + j.ph) * 0.06;
+  ctx.scale(pulse, pulse);
+  ctx.globalAlpha = 0.88;
+  ctx.fillStyle = C.jelly;
+  ctx.beginPath();
+  ctx.arc(0, 0, 16, Math.PI, 0);
+  ctx.quadraticCurveTo(16, 8, 12, 8);
+  ctx.lineTo(-12, 8);
+  ctx.quadraticCurveTo(-16, 8, -16, 0);
+  ctx.closePath();
+  ctx.fill();
+  ctx.fillStyle = 'rgba(255,255,255,0.35)';
+  ctx.beginPath(); ctx.arc(-5, -5, 4, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = C.jelly;
+  ctx.lineWidth = 2;
+  for (let i = -1.5; i <= 1.5; i++) {
+    const sway = Math.sin(G.time * 5 + j.ph + i) * 4;
+    ctx.beginPath();
+    ctx.moveTo(i * 7, 8);
+    ctx.quadraticCurveTo(i * 7 + sway, 18, i * 7 - sway, 27);
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+function drawShark(s) {
+  const dir = s.v >= 0 ? 1 : -1;
+  ctx.save();
+  ctx.translate(s.x, s.y + Math.sin(G.time * 3 + s.ph) * 3);
+  ctx.scale(dir, 1);
+  ctx.fillStyle = '#6B8090';
+  ctx.beginPath(); ctx.moveTo(-38, 0); ctx.lineTo(-58, -16); ctx.lineTo(-52, 0); ctx.lineTo(-58, 14); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#7E93A3';
+  ctx.beginPath(); ctx.ellipse(0, 0, 44, 17, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#C9D6DF';
+  ctx.beginPath(); ctx.ellipse(4, 6, 34, 9, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#6B8090';
+  ctx.beginPath(); ctx.moveTo(-6, -14); ctx.lineTo(6, -30); ctx.lineTo(16, -13); ctx.closePath(); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(2, 8); ctx.lineTo(-6, 22); ctx.lineTo(14, 12); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#141F29';
+  ctx.beginPath(); ctx.arc(24, -5, 2.6, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = '#5F7484'; ctx.lineWidth = 2;
+  for (let i = 0; i < 3; i++) {
+    ctx.beginPath(); ctx.moveTo(10 + i * 5, -6); ctx.lineTo(8 + i * 5, 6); ctx.stroke();
+  }
+  ctx.strokeStyle = '#3E4E59'; ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.arc(30, 4, 8, 0.3, 1.3); ctx.stroke();
+  ctx.restore();
+}
+function drawFin(x, big) {
+  const h = big ? 66 : 26, w = big ? 130 : 46;
+  ctx.fillStyle = big ? 'rgba(10,22,38,0.92)' : 'rgba(30,48,66,0.9)';
+  ctx.beginPath();
+  ctx.moveTo(x - w / 2, FLOOR_Y + 4);
+  ctx.quadraticCurveTo(x - w * 0.1, FLOOR_Y - h, x + w / 2, FLOOR_Y + 4);
+  ctx.closePath();
+  ctx.fill();
+  ctx.strokeStyle = 'rgba(200,230,255,0.25)';
+  ctx.lineWidth = 2;
+  ctx.beginPath();
+  ctx.moveTo(x - w / 2 - 14, FLOOR_Y - 2);
+  ctx.lineTo(x + w / 2 + 14, FLOOR_Y - 2);
+  ctx.stroke();
+}
+function drawSil(x, y, sc, alpha, dir) {
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.scale((dir >= 0 ? 1 : -1) * sc, sc);
+  ctx.globalAlpha = alpha;
+  ctx.fillStyle = C.sil;
+  ctx.beginPath(); ctx.ellipse(0, 0, 36, 20, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(-28, 0); ctx.lineTo(-52, -16); ctx.lineTo(-52, 16); ctx.closePath(); ctx.fill();
+  ctx.beginPath(); ctx.moveTo(-6, -16); ctx.lineTo(4, -30); ctx.lineTo(14, -14); ctx.closePath(); ctx.fill();
+  ctx.restore();
+}
+function drawIceCrab(cb) {
+  // colgado de cabeza bajo la placa de hielo, junto al hoyo
+  const face = cb.x < LINE_X ? 1 : -1; // mira hacia el hoyo
+  const y = ICE_Y + 13;
+  const walking = cb.state !== 'cut';
+  ctx.save();
+  ctx.translate(cb.x, y);
+  ctx.scale(face, -1); // invertido: las patas agarran el hielo de arriba
+  ctx.strokeStyle = '#B93E34';
+  ctx.lineWidth = 3;
+  for (let i = 0; i < 3; i++) {
+    const a = walking ? Math.sin(G.time * 12 + i) * 3 : 0;
+    ctx.beginPath(); ctx.moveTo(-8 - i * 4, 4); ctx.lineTo(-14 - i * 5, 12 + a); ctx.stroke();
+    ctx.beginPath(); ctx.moveTo(8 + i * 4, 4); ctx.lineTo(14 + i * 5, 12 - a); ctx.stroke();
+  }
+  ctx.fillStyle = C.danger;
+  ctx.beginPath(); ctx.ellipse(0, 0, 17, 11, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#FFF';
+  ctx.beginPath(); ctx.arc(-5, -9, 3.4, 0, Math.PI * 2); ctx.arc(5, -9, 3.4, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#20313F';
+  ctx.beginPath(); ctx.arc(-5, -9, 1.6, 0, Math.PI * 2); ctx.arc(5, -9, 1.6, 0, Math.PI * 2); ctx.fill();
+  const open = cb.state === 'cut'
+    ? (Math.sin(G.time * 16) > 0 ? 0.95 : 0.15)
+    : Math.sin(G.time * 3) * 0.2 + 0.3;
+  ctx.fillStyle = C.danger;
+  ctx.save();
+  ctx.translate(21, -2);
+  ctx.rotate(-open * 0.5);
+  ctx.beginPath(); ctx.ellipse(0, 0, 8, 6, 0.4, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+  ctx.save();
+  ctx.translate(16, 5);
+  ctx.rotate(open * 0.4);
+  ctx.beginPath(); ctx.ellipse(0, 0, 6.5, 5, -0.3, 0, Math.PI * 2); ctx.fill();
+  ctx.restore();
+  ctx.restore();
+  if (cb.state === 'cut') {
+    const bob = Math.sin(G.time * 8) * 3;
+    text('!', cb.x, ICE_Y + 46 + bob, 24, '900', C.gold, 'center');
+  }
+}
+function drawJunk(x, y, kind, rot) {
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.rotate(rot);
+  if (kind === 'boot') {
+    ctx.fillStyle = '#7A5230';
+    rrect(-10, -14, 12, 22, 4); ctx.fill();
+    rrect(-10, 4, 22, 9, 4); ctx.fill();
+    ctx.fillStyle = '#5C3D22';
+    rrect(-10, 9, 22, 4, 2); ctx.fill();
+  } else if (kind === 'can') {
+    ctx.fillStyle = '#9FB2BE';
+    rrect(-8, -12, 16, 24, 3); ctx.fill();
+    ctx.fillStyle = '#7C8E9A';
+    ctx.fillRect(-8, -4, 16, 8);
+    ctx.fillStyle = '#C4D3DC';
+    ctx.beginPath(); ctx.ellipse(0, -12, 8, 2.6, 0, 0, Math.PI * 2); ctx.fill();
+  } else {
+    ctx.fillStyle = '#8A5A33';
+    rrect(-14, -17, 28, 34, 7); ctx.fill();
+    ctx.fillStyle = '#6E4525';
+    ctx.fillRect(-14, -10, 28, 4);
+    ctx.fillRect(-14, 6, 28, 4);
+    ctx.strokeStyle = '#734B29'; ctx.lineWidth = 1.5;
+    ctx.beginPath();
+    ctx.moveTo(-5, -17); ctx.lineTo(-5, 17);
+    ctx.moveTo(5, -17); ctx.lineTo(5, 17);
+    ctx.stroke();
+  }
+  ctx.restore();
+}
+function drawMullet(x, y, dir, ph, hooked) {
+  const wag = Math.sin(G.time * 8 + ph) * 8;
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.scale(dir >= 0 ? 1 : -1, 1);
+  if (hooked) ctx.rotate(Math.sin(G.time * 12 + ph) * 0.18);
+  ctx.fillStyle = '#A93226';
+  ctx.beginPath();
+  ctx.moveTo(-26, 0); ctx.lineTo(-50, -18 + wag); ctx.lineTo(-50, 18 + wag);
+  ctx.closePath(); ctx.fill();
+  const g = ctx.createLinearGradient(0, -22, 0, 22);
+  g.addColorStop(0, '#E2574C'); g.addColorStop(1, '#B03A30');
+  ctx.fillStyle = g;
+  ctx.beginPath(); ctx.ellipse(0, 0, 34, 21, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#A93226';
+  ctx.beginPath(); ctx.moveTo(-8, -18); ctx.lineTo(4, -32); ctx.lineTo(14, -15);
+  ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#5E1712';
+  ctx.beginPath(); ctx.moveTo(34, -2);
+  ctx.lineTo(18, -9); ctx.lineTo(18, 7);
+  ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#FFF';
+  ctx.beginPath(); ctx.arc(14, -8, 5, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#20313F';
+  ctx.beginPath(); ctx.arc(15.5, -7, 2.4, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = '#5E1712'; ctx.lineWidth = 3;
+  ctx.beginPath(); ctx.moveTo(8, -15); ctx.lineTo(20, -11); ctx.stroke();
+  ctx.restore();
+}
+function drawWorm(x, y) {
+  ctx.strokeStyle = C.worm;
+  ctx.lineWidth = 4;
+  ctx.lineCap = 'round';
+  const w = Math.sin(G.time * 9) * 3;
+  ctx.beginPath();
+  ctx.moveTo(x - 4, y);
+  ctx.quadraticCurveTo(x + w, y + 5, x - w, y + 10);
+  ctx.stroke();
+}
+/* Robot anunciador (inspirado en el robot de Android de Google,
+   usado según la licencia CC BY 3.0) */
+function drawRobot(r) {
+  const x = r.x, y = ICE_Y - 2;
+  const step = r.state === 'hold' ? 0 : Math.sin(G.time * 10) * 4;
+  ctx.save();
+  ctx.translate(x, y);
+  ctx.fillStyle = 'rgba(90,130,160,0.25)';
+  ctx.beginPath(); ctx.ellipse(0, 2, 22, 6, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = C.robotDark;
+  ctx.lineWidth = 7; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(-8, -16); ctx.lineTo(-8 + step * 0.5, 0); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(8, -16); ctx.lineTo(8 - step * 0.5, 0); ctx.stroke();
+  ctx.fillStyle = C.robot;
+  rrect(-18, -46, 36, 32, 8); ctx.fill();
+  ctx.beginPath(); ctx.arc(0, -50, 17, Math.PI, 0); ctx.closePath(); ctx.fill();
+  ctx.fillStyle = '#FFF';
+  ctx.beginPath(); ctx.arc(-6, -55, 2.6, 0, Math.PI * 2); ctx.arc(6, -55, 2.6, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = C.robot;
+  ctx.lineWidth = 2.5;
+  ctx.beginPath();
+  ctx.moveTo(-9, -64); ctx.lineTo(-13, -72);
+  ctx.moveTo(9, -64); ctx.lineTo(13, -72);
+  ctx.stroke();
+  ctx.strokeStyle = C.robotDark;
+  ctx.lineWidth = 6;
+  ctx.beginPath(); ctx.moveTo(-18, -40); ctx.lineTo(-24, -24); ctx.stroke();
+  ctx.beginPath(); ctx.moveTo(18, -40); ctx.lineTo(26, -52); ctx.stroke();
+  ctx.strokeStyle = '#8A5A33';
+  ctx.lineWidth = 4;
+  ctx.beginPath(); ctx.moveTo(28, -8); ctx.lineTo(28, -92); ctx.stroke();
+  ctx.fillStyle = '#A9713F';
+  rrect(28 - 82, -132, 164, 46, 6); ctx.fill();
+  ctx.strokeStyle = '#7A4E27'; ctx.lineWidth = 2;
+  rrect(28 - 82, -132, 164, 46, 6); ctx.stroke();
+  text(r.sign[0], 28, -117, 14, '900', '#FFF7E8', 'center');
+  text(r.sign[1], 28, -99, 12, '700', '#FFE9B8', 'center');
+  ctx.restore();
+}
+function drawPile() {
+  // pesca acumulada sobre el hielo (peces propios, versión "tendida")
+  for (const p of G.pile) {
+    ctx.save();
+    ctx.translate(p.x, p.y);
+    ctx.rotate(p.rot);
+    ctx.scale(p.flip * 0.8, 0.8);
+    const body = p.gray ? '#B8C4CE' : C.gold;
+    const fin = p.gray ? '#8E9CA8' : '#F5A623';
+    ctx.fillStyle = fin;
+    ctx.beginPath();
+    ctx.moveTo(-12, 0); ctx.lineTo(-22, -7); ctx.lineTo(-22, 7);
+    ctx.closePath(); ctx.fill();
+    ctx.fillStyle = body;
+    ctx.beginPath(); ctx.ellipse(0, 0, 15, 8.5, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#20313F';
+    ctx.beginPath(); ctx.arc(7, -1, 1.9, 0, Math.PI * 2); ctx.fill();
+    ctx.restore();
+  }
+}
+function drawCooler() {
+  // hielera donde se guarda la pesca
+  ctx.fillStyle = 'rgba(90,130,160,0.25)';
+  ctx.beginPath(); ctx.ellipse(121, ICE_Y, 30, 6, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#2E6FA3';
+  rrect(98, ICE_Y - 32, 46, 32, 5); ctx.fill();
+  ctx.fillStyle = '#255C88';
+  ctx.fillRect(98, ICE_Y - 12, 46, 4);
+  ctx.fillStyle = C.ice;
+  rrect(95, ICE_Y - 41, 52, 11, 4); ctx.fill();
+  ctx.strokeStyle = C.iceEdge; ctx.lineWidth = 1.5;
+  rrect(95, ICE_Y - 41, 52, 11, 4); ctx.stroke();
+  ctx.strokeStyle = '#9CC4DE'; ctx.lineWidth = 3; ctx.lineCap = 'round';
+  ctx.beginPath();
+  ctx.moveTo(111, ICE_Y - 41);
+  ctx.quadraticCurveTo(121, ICE_Y - 49, 131, ICE_Y - 41);
+  ctx.stroke();
+  if (G.caught > 0) {
+    text('×' + G.caught, 121, ICE_Y - 20, 13, '800', '#EAF6FF', 'center');
+  }
+}
+function drawFisher() {
+  const bx = 164, by = ICE_Y - 2;
+  ctx.save();
+  ctx.translate(bx, by);
+  ctx.fillStyle = 'rgba(90,130,160,0.25)';
+  ctx.beginPath(); ctx.ellipse(4, 2, 30, 7, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#F5A623';
+  ctx.beginPath(); ctx.ellipse(-8, 0, 8, 4, 0, 0, Math.PI * 2); ctx.ellipse(10, 0, 8, 4, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#22384C';
+  ctx.beginPath(); ctx.ellipse(0, -26, 22, 27, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#F4FAFF';
+  ctx.beginPath(); ctx.ellipse(3, -22, 13, 18, 0, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = C.gold;
+  rrect(-14, -18, 28, 7, 3); ctx.fill();
+  ctx.fillRect(6, -14, 6, 12);
+  ctx.fillStyle = '#20313F';
+  ctx.beginPath(); ctx.arc(6, -40, 2.4, 0, Math.PI * 2); ctx.arc(15, -40, 2.4, 0, Math.PI * 2); ctx.fill();
+  ctx.fillStyle = '#F5A623';
+  ctx.beginPath(); ctx.moveTo(11, -36); ctx.lineTo(22, -33); ctx.lineTo(11, -30);
+  ctx.closePath(); ctx.fill();
+  ctx.strokeStyle = '#22384C';
+  ctx.lineWidth = 7; ctx.lineCap = 'round';
+  ctx.beginPath(); ctx.moveTo(14, -20); ctx.lineTo(30, -30); ctx.stroke();
+  ctx.restore();
+  ctx.strokeStyle = '#8A5A33';
+  ctx.lineWidth = 4; ctx.lineCap = 'round';
+  ctx.beginPath();
+  ctx.moveTo(bx + 26, by - 28);
+  ctx.quadraticCurveTo(bx + 60, by - 92, ROD_TIP.x, ROD_TIP.y);
+  ctx.stroke();
+}
+
+/* ---------- Dibujo: escena ---------- */
+function drawWorld() {
+  const wg = ctx.createLinearGradient(0, ICE_Y, 0, FLOOR_Y + 60);
+  wg.addColorStop(0, C.waterTop);
+  wg.addColorStop(1, C.waterDeep);
+  ctx.fillStyle = wg;
+  ctx.fillRect(0, ICE_Y, VW, VH - ICE_Y);
+
+  ctx.save();
+  ctx.globalAlpha = 0.07;
+  ctx.fillStyle = '#CFEBFF';
+  for (const s of [-1, 0, 1]) {
+    ctx.beginPath();
+    ctx.moveTo(LINE_X - 26 + s * 8, ICE_Y);
+    ctx.lineTo(LINE_X + 26 + s * 8, ICE_Y);
+    ctx.lineTo(LINE_X + 70 + s * 46, FLOOR_Y);
+    ctx.lineTo(LINE_X - 70 + s * 46, FLOOR_Y);
+    ctx.closePath(); ctx.fill();
+  }
+  ctx.restore();
+
+  // fondo marino grueso (agua bajita)
+  ctx.fillStyle = C.rock;
+  ctx.beginPath();
+  ctx.moveTo(0, VH);
+  ctx.lineTo(0, FLOOR_Y + 6);
+  for (let x = 0; x <= VW; x += 40) {
+    ctx.quadraticCurveTo(x + 20, FLOOR_Y - 8, x + 40, FLOOR_Y + 6);
+  }
+  ctx.lineTo(VW, VH);
+  ctx.closePath(); ctx.fill();
+  ctx.fillStyle = C.rock2;
+  ctx.beginPath();
+  ctx.ellipse(180, FLOOR_Y + 26, 34, 16, 0, 0, Math.PI * 2);
+  ctx.ellipse(470, FLOOR_Y + 40, 46, 20, 0, 0, Math.PI * 2);
+  ctx.ellipse(690, FLOOR_Y + 24, 28, 13, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.save();
+  ctx.translate(600, FLOOR_Y + 22);
+  ctx.rotate(0.3);
+  ctx.fillStyle = '#E88A4A';
+  ctx.beginPath();
+  for (let i = 0; i < 5; i++) {
+    const a1 = (i / 5) * Math.PI * 2 - Math.PI / 2;
+    const a2 = a1 + Math.PI / 5;
+    ctx.lineTo(Math.cos(a1) * 11, Math.sin(a1) * 11);
+    ctx.lineTo(Math.cos(a2) * 4.5, Math.sin(a2) * 4.5);
+  }
+  ctx.closePath(); ctx.fill();
+  ctx.restore();
+  ctx.strokeStyle = C.weed;
+  ctx.lineWidth = 4; ctx.lineCap = 'round';
+  for (const wx of [70, 120, 540, 730]) {
+    const sway = Math.sin(G.time * 1.4 + wx) * 6;
+    ctx.beginPath();
+    ctx.moveTo(wx, FLOOR_Y + 4);
+    ctx.quadraticCurveTo(wx + sway, FLOOR_Y - 20, wx - sway, FLOOR_Y - 40);
+    ctx.stroke();
+  }
+
+  // cinemática: silueta del Mullet al fondo
+  if (G.cine && G.cine.sil) {
+    const s = G.cine.sil;
+    drawSil(s.x, s.y, s.sc, s.al, s.v);
+  }
+
+  ctx.strokeStyle = 'rgba(200,230,255,0.35)';
+  ctx.lineWidth = 1.5;
+  for (const b of G.bubbles) {
+    ctx.beginPath(); ctx.arc(b.x, b.y, b.r, 0, Math.PI * 2); ctx.stroke();
+  }
+
+  // entidades del agua
+  for (const jk of G.junks) drawJunk(jk.x, jk.y, jk.kind, jk.rot);
+  for (const f of G.fishes) drawFish(f.x, f.y, f.vx >= 0 ? 1 : -1, f.ph, false, f.kind === 'g');
+  for (const s of G.sharks) drawShark(s);
+  for (const j of G.jellies) drawJelly(j);
+  if (G.iceCrab) drawIceCrab(G.iceCrab); // colgado bajo la placa de hielo
+  for (const fn of G.fins) drawFin(fn.x, false);
+  if (G.cine && G.cine.fin) drawFin(G.cine.fin.x, true);
+  if (G.mullet) drawMullet(G.mullet.x, G.mullet.y, G.mullet.v >= 0 ? 1 : -1, G.mullet.ph, false);
+
+  // línea de pesca
+  const H = G.hook;
+  const sway = Math.sin(G.time * 2 + H.y * 0.01) * 3;
+  ctx.strokeStyle = C.line;
+  ctx.lineWidth = 1.6;
+  ctx.beginPath();
+  ctx.moveTo(ROD_TIP.x, ROD_TIP.y);
+  ctx.quadraticCurveTo(LINE_X, (ROD_TIP.y + ICE_Y) / 2, LINE_X, ICE_Y + 4);
+  ctx.quadraticCurveTo(LINE_X + sway, (ICE_Y + H.y) / 2, LINE_X + sway * 0.4, H.y - 8);
+  ctx.stroke();
+
+  ctx.strokeStyle = '#D8E6F2';
+  ctx.lineWidth = 2.5; ctx.lineCap = 'round';
+  ctx.beginPath();
+  ctx.arc(LINE_X + sway * 0.4, H.y, 6, -0.4, Math.PI * 0.9);
+  ctx.stroke();
+
+  const hx = LINE_X + sway * 0.4;
+  if (H.stunT > 0 && Math.floor(G.time * 14) % 2 === 0) {
+    // parpadeo durante aturdimiento
+  } else if (!H.attached) {
+    if (G.worms > 0) drawWorm(hx, H.y + 2);
+  } else if (H.attached.type === 'fish') {
+    drawFish(hx, H.y + 8, 1, H.attached.ph, true, H.attached.kind === 'g');
+  } else if (H.attached.type === 'junk') {
+    drawJunk(hx, H.y + 12, H.attached.kind, Math.sin(G.time * 6) * 0.2);
+  } else if (H.attached.type === 'mullet') {
+    drawMullet(hx, H.y + 22, 1, H.attached.ph, true);
+  }
+
+  if (G.bolts > 0) {
+    ctx.strokeStyle = '#FFE85C';
+    ctx.lineWidth = 2;
+    for (let i = 0; i < 4; i++) {
+      ctx.beginPath();
+      let px = hx, py = H.y;
+      ctx.moveTo(px, py);
+      for (let s = 0; s < 3; s++) {
+        px += rand(-14, 14); py += rand(-14, 14);
+        ctx.lineTo(px, py);
+      }
+      ctx.stroke();
+    }
+  }
+
+  // hielo
+  const ig = ctx.createLinearGradient(0, 0, 0, ICE_Y);
+  ig.addColorStop(0, C.sky);
+  ig.addColorStop(0.55, C.ice);
+  ig.addColorStop(1, C.iceShade);
+  ctx.fillStyle = ig;
+  ctx.fillRect(0, 0, VW, ICE_Y);
+  ctx.fillStyle = C.iceEdge;
+  ctx.fillRect(0, ICE_Y - 3, VW, 3);
+  ctx.strokeStyle = 'rgba(140,180,210,0.35)';
+  ctx.lineWidth = 1;
+  ctx.beginPath();
+  ctx.moveTo(430, 40); ctx.lineTo(500, 78); ctx.lineTo(560, 70);
+  ctx.moveTo(620, 110); ctx.lineTo(690, 128);
+  ctx.stroke();
+
+  ctx.fillStyle = C.hole;
+  ctx.beginPath();
+  ctx.ellipse(LINE_X, ICE_Y - 6, 34, 12, 0, 0, Math.PI * 2);
+  ctx.fill();
+  ctx.strokeStyle = '#8FB9D6';
+  ctx.lineWidth = 3;
+  ctx.stroke();
+
+  drawPile();
+  drawCooler();
+  drawFisher();
+  if (G.robot) drawRobot(G.robot);
+
+  ctx.fillStyle = 'rgba(255,255,255,0.85)';
+  for (const s of G.snow) {
+    ctx.beginPath(); ctx.arc(s.x, s.y, 1.8, 0, Math.PI * 2); ctx.fill();
+  }
+
+  for (const p of G.parts) {
+    ctx.globalAlpha = clamp(p.t * 2, 0, 1);
+    ctx.fillStyle = p.color;
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2); ctx.fill();
+    ctx.globalAlpha = 1;
+  }
+  for (const f of G.floats) {
+    ctx.globalAlpha = clamp(f.t, 0, 1);
+    text(f.txt, f.x, f.y, 16, '800', f.color, 'center');
+    ctx.globalAlpha = 1;
+  }
+}
+
+/* ---------- Dibujo: HUD ---------- */
+function drawCoinIcon(x, y, r) {
+  ctx.fillStyle = C.gold;
+  ctx.beginPath(); ctx.arc(x, y, r, 0, Math.PI * 2); ctx.fill();
+  ctx.strokeStyle = C.goldDark;
+  ctx.lineWidth = 2;
+  ctx.beginPath(); ctx.arc(x, y, r - 3, 0, Math.PI * 2); ctx.stroke();
+}
+function drawHUD() {
+  ctx.fillStyle = C.panel;
+  rrect(10, 10, 306, 40, 12); ctx.fill();
+  drawCoinIcon(32, 30, 11);
+  text(String(G.coins), 50, 31, 19, '800', C.text, 'left');
+  for (let i = 0; i < CONFIG.WORMS; i++) {
+    const x = 108 + i * 18;
+    ctx.globalAlpha = i < G.worms ? 1 : 0.22;
+    drawWorm(x, 20);
+    ctx.globalAlpha = 1;
+  }
+  text('carnadas', 122, 44, 9, '600', '#9FBBD1', 'center');
+  ctx.strokeStyle = 'rgba(160,205,235,0.25)';
+  ctx.lineWidth = 1;
+  ctx.beginPath(); ctx.moveTo(172, 16); ctx.lineTo(172, 44); ctx.stroke();
+
+  if (G.phase === 'cinematic' || G.phase === 'fight' ||
+      (G.phase === 'announce' && G.robot && G.robot.after === 'fight')) {
+    text('EL MULLET', 186, 22, 14, '900', C.gold, 'left');
+    text('pez enganchado = carnada', 186, 40, 10, '600', '#9FBBD1', 'left');
+  } else {
+    text('Oleada ' + G.wave + '/5', 186, 22, 14, '800', C.text, 'left');
+    const total = CONFIG.WAVE_TIME[G.wave - 1];
+    const frac = G.phase === 'wave' ? clamp(G.waveT / total, 0, 1) : 1;
+    ctx.fillStyle = 'rgba(160,205,235,0.25)';
+    rrect(186, 32, 100, 6, 3); ctx.fill();
+    ctx.fillStyle = C.gold;
+    if (frac > 0.02) { rrect(186, 32, 100 * frac, 6, 3); ctx.fill(); }
+  }
+
+  // botón de sonido
+  ctx.fillStyle = C.panel;
+  rrect(VW - 58, 10, 48, 40, 12); ctx.fill();
+  ctx.fillStyle = C.text;
+  ctx.beginPath();
+  ctx.moveTo(VW - 44, 26); ctx.lineTo(VW - 38, 26); ctx.lineTo(VW - 31, 19);
+  ctx.lineTo(VW - 31, 41); ctx.lineTo(VW - 38, 34); ctx.lineTo(VW - 44, 34);
+  ctx.closePath(); ctx.fill();
+  if (G.muted) {
+    ctx.strokeStyle = C.danger; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(VW - 27, 22); ctx.lineTo(VW - 17, 38); ctx.stroke();
+  } else {
+    ctx.strokeStyle = C.text; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.arc(VW - 29, 30, 6, -0.9, 0.9); ctx.stroke();
+    ctx.beginPath(); ctx.arc(VW - 29, 30, 10, -0.9, 0.9); ctx.stroke();
+  }
+
+  if (G.banner) {
+    ctx.globalAlpha = clamp(G.banner.t, 0, 1);
+    ctx.fillStyle = C.panel;
+    const w = 430;
+    rrect(VW / 2 - w / 2, 64, w, 36, 12); ctx.fill();
+    text(G.banner.txt, VW / 2, 82, 16, '700', C.gold, 'center');
+    ctx.globalAlpha = 1;
+  }
+}
+
+/* ---------- Dibujo: overlays ---------- */
+function drawOverlay() {
+  ctx.fillStyle = 'rgba(4,14,26,0.62)';
+  ctx.fillRect(0, 0, VW, VH);
+  ctx.fillStyle = C.panel;
+  rrect(VW / 2 - 270, 112, 540, 372, 22); ctx.fill();
+  ctx.strokeStyle = 'rgba(160,205,235,0.35)';
+  ctx.lineWidth = 2;
+  rrect(VW / 2 - 270, 112, 540, 372, 22); ctx.stroke();
+
+  const pulse = reducedMotion ? 1 : 1 + Math.sin(G.time * 3) * 0.04;
+
+  if (G.state === 'title') {
+    text('PESCA EN EL HIELO', VW / 2, 164, 40, '900', C.text, 'center');
+    text('Tributo al clásico minijuego de pesca', VW / 2, 198, 15, '600', '#9FBBD1', 'center');
+    text('Desliza para mover el anzuelo. Sube cada pez a la superficie.', VW / 2, 240, 15, '600', C.text, 'center');
+    text('Sobrevive 5 oleadas, cada una más larga y peligrosa. 3 carnadas.', VW / 2, 266, 15, '600', C.text, 'center');
+    text('Medusas: electrocutan tu cable. Tiburones: roban tu pez.', VW / 2, 292, 15, '600', C.text, 'center');
+    text('Cangrejo bajo el hielo: sube el anzuelo al hoyo para espantarlo.', VW / 2, 318, 15, '600', C.text, 'center');
+    text('El pez gris vale 2 monedas y nada raro.', VW / 2, 344, 15, '600', C.text, 'center');
+    text('Al final llega EL MULLET: tiéntalo con un pez y súbelo para ganar.', VW / 2, 376, 15, '700', C.gold, 'center');
+    ctx.save();
+    ctx.translate(VW / 2, 434); ctx.scale(pulse, pulse);
+    text('Toca para jugar', 0, 0, 22, '800', C.gold, 'center');
+    ctx.restore();
+  } else if (G.state === 'over') {
+    text('SIN CARNADA', VW / 2, 178, 38, '900', C.danger, 'center');
+    drawCoinIcon(VW / 2 - 56, 252, 15);
+    text(String(G.coins) + ' monedas', VW / 2 + 12, 253, 24, '800', C.text, 'center');
+    const donde = (G.phase === 'fight' || G.phase === 'cinematic')
+      ? 'Caíste ante el Mullet'
+      : 'Llegaste a la oleada ' + G.wave + ' de 5';
+    text('Peces: ' + G.caught + '  ·  ' + donde, VW / 2, 300, 16, '600', '#9FBBD1', 'center');
+    ctx.save();
+    ctx.translate(VW / 2, 418); ctx.scale(pulse, pulse);
+    text('Toca para reintentar', 0, 0, 22, '800', C.gold, 'center');
+    ctx.restore();
+  } else if (G.state === 'win') {
+    text('¡ATRAPASTE AL MULLET!', VW / 2, 172, 34, '900', C.gold, 'center');
+    drawMullet(VW / 2, 244, 1, 0, false);
+    drawCoinIcon(VW / 2 - 56, 316, 15);
+    text(String(G.coins) + ' monedas', VW / 2 + 12, 317, 24, '800', C.text, 'center');
+    text('Peces atrapados: ' + G.caught, VW / 2, 354, 16, '600', '#9FBBD1', 'center');
+    ctx.save();
+    ctx.translate(VW / 2, 424); ctx.scale(pulse, pulse);
+    text('Toca para jugar otra vez', 0, 0, 22, '800', C.gold, 'center');
+    ctx.restore();
+  }
+}
+
+/* ---------- Render ---------- */
+function render() {
+  const w = window.innerWidth, h = window.innerHeight;
+  ctx.fillStyle = '#04101E';
+  ctx.fillRect(0, 0, w, h);
+  ctx.save();
+  ctx.translate(offX, offY);
+  ctx.scale(scale, scale);
+  if (G.shakeT > 0 && !reducedMotion) {
+    ctx.translate(rand(-4, 4) * G.shakeT * 3, rand(-4, 4) * G.shakeT * 3);
+  }
+  ctx.save();
+  ctx.beginPath(); ctx.rect(0, 0, VW, VH); ctx.clip();
+  drawWorld();
+  drawHUD();
+  if (G.state !== 'play') drawOverlay();
+  ctx.restore();
+  ctx.restore();
+}
+
+/* ---------- Input ---------- */
+function toVirtual(clientX, clientY) {
+  return { x: (clientX - offX) / scale, y: (clientY - offY) / scale };
+}
+function beginRun() {
+  reset();
+  G.state = 'play';
+  G.phase = 'announce';
+  startRobot(SIGNS[0], 'wave', false);
+  startMusic();
+}
+function onDown(e) {
+  const t = e.touches ? e.touches[0] : e;
+  const p = toVirtual(t.clientX, t.clientY);
+  const a = ac(); if (a && a.state === 'suspended') a.resume();
+
+  if (p.x > VW - 58 && p.x < VW - 10 && p.y > 10 && p.y < 50) {
+    G.muted = !G.muted;
+    if (MUSIC.gain) MUSIC.gain.gain.value = G.muted ? 0 : MUSIC.level;
+    return;
+  }
+  if (G.state === 'title' || G.state === 'over' || G.state === 'win') {
+    beginRun();
+    return;
+  }
+  G.hook.targetY = clamp(p.y, HOOK_MIN, HOOK_MAX);
+}
+function onMove(e) {
+  if (G.state !== 'play') return;
+  const t = e.touches ? e.touches[0] : e;
+  const p = toVirtual(t.clientX, t.clientY);
+  G.hook.targetY = clamp(p.y, HOOK_MIN, HOOK_MAX);
+}
+canvas.addEventListener('pointerdown', onDown);
+canvas.addEventListener('pointermove', onMove);
+canvas.addEventListener('touchstart', (e) => { e.preventDefault(); onDown(e); }, { passive: false });
+canvas.addEventListener('touchmove', (e) => { e.preventDefault(); onMove(e); }, { passive: false });
+
+/* ---------- Loop ---------- */
+let last = performance.now();
+function frame(now) {
+  const dt = Math.min(0.033, (now - last) / 1000);
+  last = now;
+  update(dt);
+  render();
+  requestAnimationFrame(frame);
+}
+requestAnimationFrame(frame);
+
+/* ---------- PWA: solo cuando está hospedado (HTTPS) ----------
+   El archivo abierto en local no necesita nada de esto: ya vive
+   completo en el dispositivo. Hospedado, el manifest lo hace
+   instalable y el service worker lo deja cacheado offline. */
+if (location.protocol === 'https:' || location.hostname === 'localhost') {
+  const l = document.createElement('link');
+  l.rel = 'manifest';
+  l.href = 'manifest.webmanifest';
+  document.head.appendChild(l);
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(() => {});
+    });
+  }
+}
+
+})();
+</script>
+</body>
+</html>

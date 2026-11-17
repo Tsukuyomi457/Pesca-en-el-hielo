@@ -1,0 +1,16 @@
+{
+  "name": "Pesca en el Hielo",
+  "short_name": "Pesca",
+  "description": "Tributo al clasico minijuego de pesca. 5 oleadas y el Mullet.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#081E33",
+  "theme_color": "#081E33",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
